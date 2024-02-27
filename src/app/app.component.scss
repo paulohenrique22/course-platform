@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+
+* {
+  // margin: 0;   /* Conflict with primeng components */
+  // padding: 0; /* Conflict with primeng components */
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+}
